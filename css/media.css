@@ -1,0 +1,141 @@
+@media (max-width: 1092px) {
+  .new-products__wrapper {
+    justify-content: space-around;
+  }
+  .blog__inner {
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 650px) {
+  .nav {
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  .nav__list {
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 5px 0;
+    z-index: 5;
+  }
+  .nav__item {
+    padding: 5px;
+  }
+  .nav__item + .nav__item {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .nav__btn {
+    display: block;
+  }
+  .nav__btn-item {
+    transition: all 1s ease 0s;
+  }
+  .nav__btn-active .nav__btn-item {
+    background-color: #f72464;
+  }
+  .nav__btn-active .nav__btn-item:first-child {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  .nav__btn-active .nav__btn-item:last-child {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  .nav__btn-active .nav__btn-item:nth-child(2) {
+    transform: scale(0);
+  }
+  .top__content {
+    width: 100%;
+    top: 100%;
+    transform: translateY(-100%);
+  }
+  .top__title {
+    font-size: 52px;
+    line-height: 75px;
+  }
+  .top__text {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+  .top {
+    margin-bottom: 30px;
+  }
+  .new-products,
+  .banner {
+    margin-bottom: 35px;
+  }
+  .blog {
+    margin-bottom: 45px;
+  }
+  .blog__header-description {
+    margin-bottom: 45px;
+  }
+  .form {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 565px) {
+  .blog__items {
+    display: block;
+  }
+  .blog__content {
+    width: 100%;
+    text-align: center;
+  }
+  .blog__items-img {
+    text-align: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .top__title {
+    font-size: 42px;
+    line-height: 65px;
+  }
+  .top__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer__contact-item {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 390px) {
+  .form__input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 365px) {
+  .top__title {
+    font-size: 32px;
+    line-height: 55px;
+  }
+  .top__text {
+    font-size: 14px;
+  }
+  .title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+
+@media (min-width: 650px) {
+  .nav__list {
+    display: flex !important;
+  }
+}
